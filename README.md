@@ -47,7 +47,7 @@ Khi xử lý các tập tin có dung lượng lớn (từ vài trăm MB đến h
 *(Ghi chú: Toàn bộ số liệu thực tế trên máy khi chạy chương trình sẽ được tự động lưu vào file `Bai1_AES_App/ket_qua_thuc_nghiem_AES.txt`).*
 
 Khi thực nghiệm 1 file .iso dung lượng hàng GB:
-![[Images/1.png]]
+![1](Images/1.png)
 ### 3. Kết luận rút ra từ số liệu Bài 1
 1. **Độ phức tạp thời gian tuyến tính $O(N)$:** Khi kích thước dữ liệu tăng từ `100 MB` lên `500 MB` (gấp 5 lần) và `1024 MB = 1 GB` (gấp 10.24 lần), thời gian mã hoá và giải mã AES-256 tăng hoàn toàn tuyến tính theo tỷ lệ tương ứng, giữ tốc độ thông lượng ổn định trên **500 MB/s** nhờ tập lệnh phần cứng AES-NI và cơ chế luồng `CryptoStream`. Điều này chứng minh AES cực kỳ hiệu quả để bảo mật dữ liệu dung lượng lớn (Database, Video, Disk Image hàng GB/TB).
 2. **Tương quan tốc độ Mã hoá và Giải mã:** Thời gian mã hoá và giải mã đối xứng gần như tương đương nhau vì cả hai chiều đều thực hiện 14 vòng biến đổi (SubBytes/InvSubBytes, ShiftRows/InvShiftRows, MixColumns/InvMixColumns, AddRoundKey) với cùng một khoá 256-bit. Trong chế độ CBC, quá trình giải mã có thể song song hoá việc giải mã các khối liên tiếp nên thường nhanh hơn mã hoá khoảng 3% – 5%.
