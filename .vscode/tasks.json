@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-bai1",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Bai1_AES_App/Bai1_AES_App.csproj"]
+    },
+    {
+      "label": "build-bai2",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["build", "${workspaceFolder}/Bai2_RSA_SHA256_Sign_App/Bai2_RSA_SHA256_Sign_App.csproj"]
+    }
+  ]
+}

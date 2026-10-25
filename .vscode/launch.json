@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Chạy & Debug Bài 1: Mã hoá AES-256 (.NET 10)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-bai1",
+      "program": "${workspaceFolder}/Bai1_AES_App/bin/Debug/net10.0/Bai1_AES_App.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Bai1_AES_App",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Chạy & Debug Bài 2: RSA, PEM, SHA-256 & Chữ ký số (.NET 10)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-bai2",
+      "program": "${workspaceFolder}/Bai2_RSA_SHA256_Sign_App/bin/Debug/net10.0/Bai2_RSA_SHA256_Sign_App.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Bai2_RSA_SHA256_Sign_App",
+      "console": "integratedTerminal"
+    }
+  ]
+}

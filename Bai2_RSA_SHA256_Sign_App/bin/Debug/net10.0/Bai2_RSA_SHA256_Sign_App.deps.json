@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Bai2_RSA_SHA256_Sign_App/1.0.0": {
+        "runtime": {
+          "Bai2_RSA_SHA256_Sign_App.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bai2_RSA_SHA256_Sign_App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

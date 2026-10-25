@@ -1,0 +1,11 @@
+﻿BÁO CÁO SỐ LIỆU THỰC NGHIỆM MÃ HOÁ ĐỐI XỨNG AES-256 (FILE LỚN HÀNG GB)
+Thời gian đo: 2026-10-25 13:29:46 | Buffer: 4 MB
+--------------------------------------------------------------------------------------------------
+Kích thước File    | Số Bytes Nguồn  | TG Mã hoá    | TG Giải mã   | Tốc độ TB    | Compare theo Bytes
+--------------------------------------------------------------------------------------------------
+2.92 GB            | 3,134,275,584   |     4.871 s |     3.407 s |   722.2 MB/s | KHỚP 100% (0 byte lệch)
+--------------------------------------------------------------------------------------------------
+KẾT LUẬN TỪ SỐ LIỆU THỰC NGHIỆM:
+1. Thời gian mã hoá và giải mã AES-256 tăng tuyến tính O(N) theo dung lượng file (nhờ đọc/ghi luồng FileStream + CryptoStream với Buffer 4MB nên không gây tràn RAM với file hàng GB).
+2. Thời gian mã hoá và giải mã xấp xỉ tương đương nhau (giải mã chế độ CBC thường nhanh hơn 3-5% nhờ khả năng xử lý song song các khối bản mã).
+3. Khi đối sánh từng byte (CompareFilesByBytes), 100% các byte của file sau giải mã trùng khớp tuyệt đối với file nguồn ban đầu.

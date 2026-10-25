@@ -1,0 +1,14 @@
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/bin/Debug/net10.0/Bai1_AES_App
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/bin/Debug/net10.0/Bai1_AES_App.deps.json
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/bin/Debug/net10.0/Bai1_AES_App.runtimeconfig.json
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/bin/Debug/net10.0/Bai1_AES_App.dll
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/bin/Debug/net10.0/Bai1_AES_App.pdb
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/obj/Debug/net10.0/Bai1_AES_App.GeneratedMSBuildEditorConfig.editorconfig
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/obj/Debug/net10.0/Bai1_AES_App.AssemblyInfoInputs.cache
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/obj/Debug/net10.0/Bai1_AES_App.AssemblyInfo.cs
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/obj/Debug/net10.0/Bai1_AES_App.csproj.CoreCompileInputs.cache
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/obj/Debug/net10.0/Bai1_AES_App.dll
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/obj/Debug/net10.0/refint/Bai1_AES_App.dll
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/obj/Debug/net10.0/Bai1_AES_App.pdb
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/obj/Debug/net10.0/Bai1_AES_App.genruntimeconfig.cache
+/home/remuchan25/Documents/An toan va bao mat thong tin/Bai1_AES_App/obj/Debug/net10.0/ref/Bai1_AES_App.dll
