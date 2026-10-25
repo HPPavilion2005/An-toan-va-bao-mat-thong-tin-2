@@ -6,9 +6,9 @@
 ## Cấu trúc thư mục dự án trên GitHub
 
 ```text
-ATTT-Cryptography-Labs/
+An toan va bao mat thong tin/
 ├── README.md                              # Báo cáo chi tiết kết quả thực nghiệm & cơ sở lý thuyết
-├── .gitignore                             # Bỏ qua bin/, obj/, các file nhị phân hàng GB (*.bin, *.aes)
+├── .git                             
 ├── .vscode/
 │   ├── settings.json                      # Cấu hình đường dẫn .NET SDK trên Linux Mint
 │   ├── tasks.json                         # Tác vụ Build tự động cho Bài 1 và Bài 2
